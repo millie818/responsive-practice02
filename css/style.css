@@ -170,7 +170,6 @@ h1 a {
 
 .info_title {
   width: 166px;
-  border-right: 2px solid #a39e9f;
   padding-top: 10px;
 }
 
@@ -183,6 +182,8 @@ h1 a {
 .info_text {
   padding-top: 10px;
   padding-left: 29px;
+  border-left: 2px solid #a39e9f;
+
 }
 
 .info_text ul li {
@@ -271,3 +272,70 @@ h1 a {
   font-size: 12px;
 }
 /* site_footerここまで */
+
+/* メディアクエリ */
+@media screen and (max-width: 768px) {
+.header_container {
+  width: 100%;
+  padding: 20px 20px;
+}
+
+.header_right {
+  display: none;
+}
+
+.main_img {
+padding: 40px 20px;
+}
+
+.main_img p {
+  width: 100%;
+  padding: 0 20px;
+}
+
+.greeting {
+  padding: 40px 20px;
+}
+
+.greeting p {
+  width: 100%;
+  line-height: 1.5;
+}
+
+.contents_row {
+  width: 100%;
+  flex-direction: column;
+  justify-content: normal;
+  margin-bottom: 20px;
+}
+
+.content {
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+}
+
+.contents img {
+  width: 100%;
+}
+
+.contents p {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.shopinfo {
+  display: block;
+}
+
+.shopinfo_left {
+  width: 100%;
+  padding: 40px 50px;
+}
+
+.shopinfo_right img{
+  width: 100%;
+}
+
+}
