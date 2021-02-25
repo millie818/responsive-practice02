@@ -56,6 +56,11 @@ h1 a {
   box-sizing: border-box;
 }
 
+.header_container a:hover {
+  opacity: .6;
+  cursor: pointer;
+}
+
 .main_img {
   background: url(../images/main-bg.png);
   padding-top: 242px;
@@ -141,6 +146,10 @@ h1 a {
   line-height: 56px;
   text-decoration: none;
   padding-left: 90px;
+}
+
+.more_btn:hover {
+  opacity: .6;
 }
 /* contentsここまで */
 /* ===== mainここまで ===== */
@@ -245,6 +254,10 @@ h1 a {
   margin-bottom: 60px;
 }
 
+.access_btn:hover {
+  opacity: .6;
+}
+
 .shop_access ul {
   display: flex;
   justify-content: center;
@@ -266,6 +279,11 @@ h1 a {
   text-decoration: none;
   color: #fff5fe;
   vertical-align: top;
+}
+
+.shop_access ul li a:hover {
+  color: #ff7385;
+  transition: all .3s;
 }
 
 .copyright {
