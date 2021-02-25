@@ -5,19 +5,269 @@ body {
 }
 
 /* site_headerここから */
+.header_container {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
 
+h1 a {
+  font-size: 40px;
+  font-weight: 700;
+  color: #48bac2;
+  text-decoration: none;
+}
+
+.header_right {
+  display: flex;
+  align-items: center;
+}
+
+.header_nav ul {
+  display: flex;
+  margin-right: 32px;
+}
+
+.header_nav ul li {
+  list-style: none;
+  margin-left: 39px;
+}
+
+.header_nav ul li a {
+  font-size: 18px;
+  color: #48bac2;
+  text-decoration: none;
+}
+
+.mail_btn {
+  display: block;
+  width: 96px;
+  height: 48px;
+  font-size: 18px;
+  color: #fff5fe;
+  line-height: 48px;
+  text-decoration: none;
+  background: #48bac2 url(../images/mail.icon.png) no-repeat top 15px left 12px;
+  padding-left: 45px;
+  box-sizing: border-box;
+}
+
+.main_img {
+  background: url(../images/main-bg.png);
+  padding-top: 242px;
+  padding-bottom: 262px;
+}
+
+.main_img h2 {
+  font-size: 44px;
+  font-weight: 400;
+  color: #fff5fe;
+  text-align: center;
+  margin-bottom: 34px;
+}
+
+.main_img p {
+  width: 740px;
+  margin: 0 auto;
+  font-size: 22px;
+  color: #fff5fe;
+  line-height: 1.2;
+  text-align: center;
+}
 /* site_headerここまで */
 
 /* ===== mainここから ===== */
 /* greetingここから */
+.greeting {
+  background: url(../images/greeting-bg.png) center center / cover;
+  padding-top: 70px;
+  padding-bottom: 114px;
+}
 
+.greeting h2 {
+  font-size: 40px;
+  color: #48bac2;
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.greeting p {
+  width: 555px;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 100;
+  color: #010c21;
+  line-height: 2;
+  text-align: center;
+}
 /* greetingここまで */
 
 /* contentsここから */
+.contents {
+  background: url(../images/contents-bg.png) center center / cover;
+  padding-top: 99px;
+  padding-bottom: 91px;
+}
 
+.contents_row {
+  display: flex;
+  justify-content: space-between;
+  width: 1140px;
+  margin: 0 auto;
+  margin-bottom: 69px;
+}
+
+.content p {
+  width: 360px;
+  color: #000;
+  line-height: 2.25;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 42px;
+}
+
+.more_btn {
+  display: block;
+  width: 226px;
+  height: 60px;
+  margin: 0 auto;
+  background: #ff7385 url(../images/arrow-icon.png) no-repeat center right 20px;
+  font-size: 18px;
+  color: #fff5fe;
+  line-height: 56px;
+  text-decoration: none;
+  padding-left: 90px;
+}
 /* contentsここまで */
 /* ===== mainここまで ===== */
 
 /* site_footerここから */
+.shopinfo {
+  display: flex;
+  justify-content: space-between;
+}
 
+.shopinfo_left {
+  padding-top: 90px;
+  padding-bottom: 70px;
+  padding-left: 112px;
+}
+
+.shopinfo h2 {
+  font-size: 28px;
+  color: #48bac2;
+  margin-bottom: 30px;
+}
+
+.shopinfo_left_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info_title {
+  width: 166px;
+  border-right: 2px solid #a39e9f;
+  padding-top: 10px;
+}
+
+.info_title ul li {
+  font-size: 18px;
+  color: #010c21;
+  margin-bottom: 41px;
+}
+
+.info_text {
+  padding-top: 10px;
+  padding-left: 29px;
+}
+
+.info_text ul li {
+  font-size: 18px;
+  color: #5a5a5a;
+  margin-bottom: 41px;
+}
+
+.shopinfo_left_container ul li:last-child {
+  margin-bottom: 20px;
+}
+
+.shopinfo_right img {
+  width: 686px;
+  height: 515px;
+}
+
+.shop_access {
+  background: url(../images/footer-bg.png) center center / cover;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 63px;
+  color: #fff5fe;
+  font-size: 18px;
+}
+
+.shop_access h2 {
+  font-size: 40px;
+  margin-bottom: 34px;
+}
+
+.shop_access .adress {
+  margin-bottom: 12px;
+}
+
+.shop_access .tel {
+  width: 180px;
+  height: 25px;
+  line-height: 25px;
+  margin: 0 auto;
+  background: url(../images/tel-icon.png) no-repeat ;
+  padding-left: 61px;
+  margin-bottom: 34px;
+}
+
+.access_btn {
+  display: block;
+  width: 226px;
+  height: 60px;
+  margin: 0 auto;
+  background: #ff7385 url(../images/access-icon.png) no-repeat center left 63px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff5fe;
+  line-height: 60px;
+  text-align: left;
+  text-decoration: none;
+  padding-left: 88px;
+  margin-bottom: 60px;
+}
+
+.shop_access ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 43px;
+}
+
+.shop_access ul li {
+  width: 70px;
+  height: 16px;
+  border-right: 1px solid #fff5fe;
+}
+
+.shop_access ul li:last-child {
+  border: none;
+}
+
+.shop_access ul li a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff5fe;
+  vertical-align: top;
+}
+
+.copyright {
+  font-size: 12px;
+}
 /* site_footerここまで */
