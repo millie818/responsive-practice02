@@ -348,23 +348,17 @@ h1 a {
 
 .shopinfo_left {
   width: 100%;
-  padding: 40px 50px;
+  padding: 20px 20px;
+  box-sizing: border-box;
 }
-
-.info_text ul li:last-child {
-  width: 10px;
-} 
 
 .shopinfo_right img{
   width: 100%;
 }
 
-header {
-  /* display: none; */
+@media (max-width: 480px) {
+  .info_text ul li:nth-child(3) {
+    padding-bottom: 1em;
+  }
 }
-
-section {
-  /* display: none; */
-}
-
 }
